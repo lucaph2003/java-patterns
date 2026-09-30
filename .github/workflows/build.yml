@@ -2,7 +2,8 @@ name: Build
 
 on:
   push:
-    branches: [main]
+    # TEMP: chore/repo-polish is only here to iterate on CI before the PR; remove before merging
+    branches: [main, chore/repo-polish]
   pull_request:
     branches: [main]
   workflow_dispatch:
