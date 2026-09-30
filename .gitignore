@@ -1,2 +1,30 @@
+# ---- Java ----
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# ---- Build output ----
 /build/
 /dist/
+/out/
+
+# ---- NetBeans (machine-specific settings; nbproject/ itself stays tracked) ----
+nbproject/private/
+
+# ---- IntelliJ IDEA ----
+.idea/
+*.iml
+
+# ---- VS Code ----
+.vscode/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Astah (backups and locks) ----
+*.asta~
+*.asta.bak
+*.bak
+.~lock.*

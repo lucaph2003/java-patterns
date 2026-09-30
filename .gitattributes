@@ -1,0 +1,9 @@
+* text=auto
+
+*.java text eol=lf
+*.form text eol=lf
+
+*.pdf binary
+*.asta binary
+*.png binary
+*.jpg binary
